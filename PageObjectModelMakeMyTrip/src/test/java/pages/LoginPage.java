@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import tests.BaseTest;
 import utils.CommonUtility;
@@ -13,7 +14,7 @@ public class LoginPage extends BaseTest{
 	
 	
 	public static void enterEmail(String email) {
-		  driver.findElement(By.id("username")).sendKeys(email);
+	  driver.findElement(By.id("username")).sendKeys(email);
 	}
 	
 	public static void clickContinue() {

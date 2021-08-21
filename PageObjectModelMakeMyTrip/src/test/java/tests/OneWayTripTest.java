@@ -18,5 +18,6 @@ public class OneWayTripTest extends BaseTest {
 	 HomePage.clickFromCity();
 	 HomePage.enterTextInFromCity();
 	 Thread.sleep(20000);
+	 HomePage.enterTextInToCity();
  }
 }

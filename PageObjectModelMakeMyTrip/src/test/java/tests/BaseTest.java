@@ -10,7 +10,7 @@ import io.qameta.allure.Step;
 
 public class BaseTest {
 
-	public static RemoteWebDriver driver;
+	public static  RemoteWebDriver driver;
 	
 	@Step("Setup")
 	@Parameters({"browser"})
